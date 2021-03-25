@@ -19,7 +19,7 @@ const port = 3000;
 //app.get('/', (req, res) => res.send('Welcome!'));
 //serve html
 app.get('/', function(req, res){
-res.sendFile(__dirname + '/home.html');
+res.sendFile(__dirname + '/login.html');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
